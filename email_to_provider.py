@@ -8,7 +8,7 @@ def send_sms_via_email(
     message: str,
     provider: str,
     sender_credentials: tuple,
-    subject: str = "Sent using AWS and python",
+    subject: str = "Sent with python",
     smtp_server: str = "smtp.gmail.com",
     smtp_port: int = 465,
 ):
