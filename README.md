@@ -23,9 +23,9 @@ MESSAGES = [
 ]
 ```
 Create another file named receiver_list.py with an object RECEIVERS that has all receivers of the SMS messages where:
-    "phone_number" is a valid 10 digit phone number
-    "provider" is matching a valid provider in the PROVIDERS list, and is the cell provider for the phone number listed
-    "message_type" holds the index or indexes of the message from the MESSAGES you would like to be sent
+- "phone_number" is a valid 10 digit phone number
+- "provider" is matching a valid provider in the PROVIDERS list, and is the cell provider for the phone number listed
+- "message_type" holds the index or indexes of the message from the MESSAGES you would like to be sent
 ```
 RECEIVERS = {    
     "John": {"phone_number": "0000000000", "provider": "Verizon", "message_type": [0,1]},
